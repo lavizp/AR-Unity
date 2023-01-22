@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour
     }
     public void DisplaySingle(Heritage heritageData)
     {
+        
         _placeInterface.InitialisePrefab(models[0]);
         canSpawn = true;
         multipleDisplay.SetActive(false);

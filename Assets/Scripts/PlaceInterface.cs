@@ -41,7 +41,6 @@ public class PlaceInterface : MonoBehaviour
     {
         if (!TryGetPosition(out Vector2 _touchPos))
         {
-
             return;
         }
         if(!GameManager.Instance.canSpawn) return;

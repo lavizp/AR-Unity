@@ -2927,64 +2927,64 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 		struct
 		{
 			// System.Int32 System.Decimal::flags
-			int32_t ___flags_5;
+			int32_t ___flags_8;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			int32_t ___flags_5_forAlignmentOnly;
+			int32_t ___flags_8_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___hi_6_OffsetPadding[4];
+			char ___hi_9_OffsetPadding[4];
 			// System.Int32 System.Decimal::hi
-			int32_t ___hi_6;
+			int32_t ___hi_9;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___hi_6_OffsetPadding_forAlignmentOnly[4];
-			int32_t ___hi_6_forAlignmentOnly;
+			char ___hi_9_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___hi_9_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___lo_7_OffsetPadding[8];
+			char ___lo_10_OffsetPadding[8];
 			// System.Int32 System.Decimal::lo
-			int32_t ___lo_7;
+			int32_t ___lo_10;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___lo_7_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___lo_7_forAlignmentOnly;
+			char ___lo_10_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___lo_10_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___mid_8_OffsetPadding[12];
+			char ___mid_11_OffsetPadding[12];
 			// System.Int32 System.Decimal::mid
-			int32_t ___mid_8;
+			int32_t ___mid_11;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___mid_8_OffsetPadding_forAlignmentOnly[12];
-			int32_t ___mid_8_forAlignmentOnly;
+			char ___mid_11_OffsetPadding_forAlignmentOnly[12];
+			int32_t ___mid_11_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding[8];
+			char ___ulomidLE_12_OffsetPadding[8];
 			// System.UInt64 System.Decimal::ulomidLE
-			uint64_t ___ulomidLE_9;
+			uint64_t ___ulomidLE_12;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding_forAlignmentOnly[8];
-			uint64_t ___ulomidLE_9_forAlignmentOnly;
+			char ___ulomidLE_12_OffsetPadding_forAlignmentOnly[8];
+			uint64_t ___ulomidLE_12_forAlignmentOnly;
 		};
 	};
 };
@@ -2992,15 +2992,15 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 {
 	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_0;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
 	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_1;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
 	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_2;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
 	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_3;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
 	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_4;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
 };
 
 // System.Reflection.DefaultMemberAttribute
@@ -11387,7 +11387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Exception_get_Source_mC93821311B382
 		L_11 = VirtualFuncInvoker0< Assembly_t* >::Invoke(26 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_10);
 		NullCheck(L_11);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_12;
-		L_12 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(17 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_11);
+		L_12 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(18 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_11);
 		NullCheck(L_12);
 		String_t* L_13;
 		L_13 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_12, NULL);
@@ -23969,7 +23969,7 @@ IL_0135:
 		String_t* L_42 = __this->___m_data_5;
 		NullCheck(L_41);
 		Type_t* L_43;
-		L_43 = VirtualFuncInvoker3< Type_t*, String_t*, bool, bool >::Invoke(19 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_41, L_42, (bool)1, (bool)0);
+		L_43 = VirtualFuncInvoker3< Type_t*, String_t*, bool, bool >::Invoke(20 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_41, L_42, (bool)1, (bool)0);
 		return L_43;
 	}
 
@@ -24017,7 +24017,7 @@ IL_0181:
 		String_t* L_50 = __this->___m_data_5;
 		NullCheck(L_49);
 		Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0* L_51;
-		L_51 = VirtualFuncInvoker1< Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0*, String_t* >::Invoke(20 /* System.Reflection.Module System.Reflection.Assembly::GetModule(System.String) */, L_49, L_50);
+		L_51 = VirtualFuncInvoker1< Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0*, String_t* >::Invoke(21 /* System.Reflection.Module System.Reflection.Assembly::GetModule(System.String) */, L_49, L_50);
 		V_2 = L_51;
 		Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0* L_52 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0_il2cpp_TypeInfo_var);
@@ -26902,6 +26902,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Delegate_get_Target_m6E203F111
 		return L_0;
 	}
 }
+// System.IntPtr System.Delegate::GetNativeFunctionPointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Delegate_GetNativeFunctionPointer_m33154447FC68C796BC39378ED738569E7DF8D1B4 (Delegate_t* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = (intptr_t)__this->___method_ptr_0;
+		return L_0;
+	}
+}
 // System.Delegate System.Delegate::CreateDelegate_internal(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_CreateDelegate_internal_mBA6CFDB235B7F91DBAAD074AF07DA167291E3872 (Type_t* ___type0, RuntimeObject* ___target1, MethodInfo_t* ___info2, bool ___throwOnBindFailure3, const RuntimeMethod* method) 
 {
@@ -29556,7 +29564,7 @@ IL_0026:
 		String_t* L_16 = __this->___type_0;
 		NullCheck(L_15);
 		Type_t* L_17;
-		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(15 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_15, L_16);
+		L_17 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(16 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_15, L_16);
 		V_3 = L_17;
 		RuntimeObject* L_18 = V_0;
 		if (!L_18)
@@ -29619,7 +29627,7 @@ IL_009b:
 		String_t* L_37 = __this->___targetTypeName_4;
 		NullCheck(L_36);
 		Type_t* L_38;
-		L_38 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(15 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_36, L_37);
+		L_38 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(16 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_36, L_37);
 		V_4 = L_38;
 		Type_t* L_39 = V_3;
 		Type_t* L_40 = V_4;

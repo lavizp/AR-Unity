@@ -9,16 +9,17 @@ public class SingleDisplayManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI description;
-
-    private void OnEnable()
-    {
-        GameManager.Instance.CannotSpawn();
-    }
+    private string mapsLink;
 
     public void InitialiseThis(Heritage thisHeritage)
     {
         title.text = thisHeritage.name;
         description.text = thisHeritage.description;
+        mapsLink = thisHeritage.mapsLink;
+    }
 
+    public void LoadMaps()
+    {
+        Application.OpenURL(mapsLink);
     }
 }
