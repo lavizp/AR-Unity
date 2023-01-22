@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -8,6 +9,11 @@ public class SingleDisplayManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI description;
+
+    private void OnEnable()
+    {
+        GameManager.Instance.CannotSpawn();
+    }
 
     public void InitialiseThis(Heritage thisHeritage)
     {

@@ -7,7 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 public class PlaceInterface : MonoBehaviour
 {
     [SerializeField] private GameObject interfacePrefab;
-
+    [SerializeField] private GameObject clickToInput;
     private GameObject _spawnedObject;
     private ARRaycastManager _arRaycastManager;
     private Vector2 _touchPos;
@@ -51,6 +51,7 @@ public class PlaceInterface : MonoBehaviour
             if (_spawnedObject == null)
             {
                 _spawnedObject = Instantiate(interfacePrefab, hitPose.position, hitPose.rotation);
+                clickToInput.SetActive(false);
                 Debug.Log("Spawned");
 
             }
