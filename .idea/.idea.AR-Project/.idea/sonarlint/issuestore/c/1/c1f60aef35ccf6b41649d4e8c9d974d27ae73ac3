@@ -1,0 +1,15 @@
+
+csharpsquid:S101"]Rename class 'LocationsDTO' to match pascal case naming rules, consider using 'LocationsDto'.(…‹å08´û¾İ0
+ƒcsharpsquid:S101"[Rename class 'LocationDTO' to match pascal case naming rules, consider using 'LocationDto'.(á›Íêüÿÿÿÿ8Êƒ¾İ0
+Kcsharpsquid:S3903"'Move 'Heritage' into a named namespace.(¤ò¨í8¥‘¾İ0
+Ncsharpsquid:S3903"+Move 'LocationsDTO' into a named namespace.(…‹å08¶û¾İ0
+Scsharpsquid:S3903"*Move 'LocationDTO' into a named namespace.(á›Íêüÿÿÿÿ8Êƒ¾İ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¹£¥í8ãÈ“¾İ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ü¸Ÿ8¶û¾İ0
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ó­ÜŒøÿÿÿÿ8ş¼¾İ0
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ä³Ì©üÿÿÿÿ8˜ ”¾İ0
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿±áÿÿÿÿÿ8öç‘¾İ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¤¿®Ş8˜ ”¾İ0
+gcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ˆÔ8Å»¾İ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(íœÊâ8˜••¾İ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(§òêé8ÆÚ•¾İ0

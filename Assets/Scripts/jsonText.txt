@@ -1,0 +1,49 @@
+{
+   "status": "ok",
+   "result": [
+        {
+        "location": "kathmandu",
+        "heritages": [
+        {
+            "name": "Patan Durbar Square",
+            "image":"https://www.nepaltraveladventure.com/blog/wp-content/uploads/2020/03/patan-durbar-square.jpg",
+            "title":"Patan Durbar Square is situated at the centre of the city of Lalitpur in Nepal." ,
+            "description":"Patan Durbar Square is a great historical place situated in Lalitpur District, Nepal. It is one of the main toursit attraction of Nepal too. Patan Durbar Square is the place which is recognized all over the world for its great historic art and sculptures.",
+            "mapsLink":"https://www.google.com/maps/place/Patan+Darbar+Square/@27.6726981,85.3231324,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19c50daa2fb1:0x6f197fa38097b530!8m2!3d27.6726981!4d85.3253211"   
+        }
+        ]
+     },
+     {
+        "location": "lalitpur",
+        "heritages": [
+        {
+            "name": "lalitpur Durbar Square",
+            "image":"https://www.nepaltraveladventure.com/blog/wp-content/uploads/2020/03/patan-durbar-square.jpg",
+            "title":"Patan Durbar Square is situated at the centre of the city of Lalitpur in Nepal." ,
+            "description":"Patan Durbar Square is a great historical place situated in Lalitpur District, Nepal. It is one of the main toursit attraction of Nepal too. Patan Durbar Square is the place which is recognized all over the world for its great historic art and sculptures.",
+            "mapsLink":"https://www.google.com/maps/place/Patan+Darbar+Square/@27.6726981,85.3231324,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19c50daa2fb1:0x6f197fa38097b530!8m2!3d27.6726981!4d85.3253211"   
+        }
+        ]
+     },
+     {
+             "location": "bhaktapur",
+             "heritages": [
+             {
+                 "name": "Bhaktapur Durbar Square",
+                 "image":"https://www.nepaltraveladventure.com/blog/wp-content/uploads/2020/03/patan-durbar-square.jpg",
+                 "title":"Patan Durbar Square is situated at the centre of the city of Lalitpur in Nepal." ,
+                 "description":"Patan Durbar Square is a great historical place situated in Lalitpur District, Nepal. It is one of the main toursit attraction of Nepal too. Patan Durbar Square is the place which is recognized all over the world for its great historic art and sculptures.",
+                 "mapsLink":"https://www.google.com/maps/place/Patan+Darbar+Square/@27.6726981,85.3231324,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19c50daa2fb1:0x6f197fa38097b530!8m2!3d27.6726981!4d85.3253211"   
+             },
+             {
+                    "name": "Patan Durbar Square",
+                    "image":"https://www.nepaltraveladventure.com/blog/wp-content/uploads/2020/03/patan-durbar-square.jpg",
+                    "title":"Patan Durbar Square is situated at the centre of the city of Lalitpur in Nepal." ,
+                    "description":"Patan Durbar Square is a great historical place situated in Lalitpur District, Nepal. It is one of the main toursit attraction of Nepal too. Patan Durbar Square is the place which is recognized all over the world for its great historic art and sculptures.",
+                    "mapsLink":"https://www.google.com/maps/place/Patan+Darbar+Square/@27.6726981,85.3231324,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19c50daa2fb1:0x6f197fa38097b530!8m2!3d27.6726981!4d85.3253211"   
+             }
+             ]
+          }
+     
+   ]
+}
